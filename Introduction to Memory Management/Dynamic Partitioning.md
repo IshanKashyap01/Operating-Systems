@@ -4,12 +4,12 @@
 
 - Degree of multiprogramming is *variable* and generally *higher*
 
-- Any size of process can be assigned as long as enough free and contigious memory
+- Any size of process can be assigned as long as enough free and contiguous memory
 is available
 
 ## Example of External Fragmentation in Dynamic Partitioning
 
-- Suppose there are three contigious processes in the main memory where:
+- Suppose there are three contiguous processes in the main memory where:
   - First process is taking up 20% memory
   - Second process is taking up 50% memory
   - Third process is taking up 30% memory
@@ -18,4 +18,4 @@ is available
 up that requires 40% memory
 
 - Although, there is 50% free space the process cannot be accomodated as it is not
-contigious
+contiguous

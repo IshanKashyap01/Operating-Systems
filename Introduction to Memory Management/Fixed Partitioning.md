@@ -27,4 +27,4 @@ If a process needs more size than the largest partition, it will **never** be as
 20 MB of free memory
 
 - Now, a new process that needs even 1 MB of space cannot be assigned as the unused
-space is not contigious
+space is not contiguous

@@ -1,10 +1,10 @@
 # Memory Allocation and Management Techniques
 
-- Memory allocation can be either **contigious** or **non contigious**
+- Memory allocation can be either **contiguous** or **non contiguous**
 
 - Management techniques depend on the type of allocation
 
-- For contigious allocation, we have two memory management techniques:
+- For contiguous allocation, we have two memory management techniques:
     1. Fixed partitioning
     2. Dynamic partitioning
 
@@ -28,9 +28,9 @@ other
 
 - The OS dynamically assigns only the required amount of memory to the processes
 
-## Problem with Contigious Memory Allocation
+## Problem with contiguous Memory Allocation
 
-- Any free/unused non-contigious space in the main memory will be wasted as only
-a contigious block of memory can be assigned to a process
+- Any free/unused non-contiguous space in the main memory will be wasted as only
+a contiguous block of memory can be assigned to a process
 
 - This is known as **external fragmentation**
